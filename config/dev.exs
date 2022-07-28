@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :phone_number_detail, PhoneNumberDetail.Repo,
   username: "postgres",
-  password: "12345678",
+  password: "password",
   hostname: "localhost",
   database: "phone_number_detail_dev",
   stacktrace: true,
